@@ -2,7 +2,7 @@
 
         // 타이핑 작성 및 삭제 기능 구현
         const text  =document.querySelector(".typing");
-        let context = ["신입퍼블리셔","최원석입니다",];// 9글자  0~8 번째
+        let context = ["WELCOME TO MY PORTFOLIO",];// 9글자  0~8 번째
 
         // 0 부터 8까지 1씩 증가될 변수
         let charIndex = 0;

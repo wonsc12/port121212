@@ -29,7 +29,7 @@ let secStart = [];
         let scTop = window.scrollY;
         let cont2Start = document.querySelector(".cont2").offsetTop;
 
-        if(scTop >= cont2Start){
+        if(scTop >= cont2Start  ){
             
             header.classList.add("fixer");
             
@@ -40,7 +40,7 @@ let secStart = [];
         
         else{
             
-            header.classList.add("fixer");
+            header.classList.remove("fixer");
             
             fluson();
 
