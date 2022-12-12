@@ -199,34 +199,34 @@ body {
     opacity: 0;
   }
 }
-.container .cont3 {
+.container .cont2 {
   width: 100%;
   height: 80vh;
   display: flex;
   align-items: center;
   background-color: #fafafa;
 }
-.container .cont3 .skill {
+.container .cont2 .skill {
   width: 100%;
   display: flex;
   justify-content: center;
 }
-.container .cont3 .skill .center2 {
+.container .cont2 .skill .center2 {
   text-align: center;
   width: 70%;
 }
-.container .cont3 .skill .center2 .text3 {
+.container .cont2 .skill .center2 .text3 {
   margin-bottom: 100px;
 }
-.container .cont3 .skill .center2 .text3 h2 {
+.container .cont2 .skill .center2 .text3 h2 {
   font-size: 34px;
   font-weight: bold;
 }
-.container .cont3 .skill .center2 .text3 p {
+.container .cont2 .skill .center2 .text3 p {
   margin: 18px 0 28px 0;
   color: #bcbcbc;
 }
-.container .cont3 .skill .center2 .text3::after {
+.container .cont2 .skill .center2 .text3::after {
   content: "";
   display: inline-block;
   width: 80px;
@@ -234,7 +234,7 @@ body {
   background-color: #bcbcbc;
   margin-bottom: 79px;
 }
-.container .cont3 .skill .center2 .box4 {
+.container .cont2 .skill .center2 .box4 {
   margin: 0 auto;
   width: 100%;
   display: flex;
@@ -243,43 +243,47 @@ body {
   transition: all 2s;
   transform: translateY(-150px);
 }
-.container .cont3 .skill .center2 .box4 .box {
+.container .cont2 .skill .center2 .box4 .box {
   width: 23%;
   margin: 0 1%;
   background-color: #fff;
   margin: 10px 10px;
 }
-.container .cont3 .skill .center2 .box4 .box i {
+.container .cont2 .skill .center2 .box4 .box i {
   font-size: 60px;
   margin: 38px 0 27px 0;
   color: #bcbcbc;
 }
-.container .cont3 .skill .center2 .box4 .box i:hover {
+.container .cont2 .skill .center2 .box4 .box i:hover {
   color: red;
 }
-.container .cont3 .skill .center2 .box4 .box h2 {
+.container .cont2 .skill .center2 .box4 .box h2 {
   font-size: 20px;
   margin: 20px 0 20px 0;
 }
-.container .cont3 .skill .center2 .box4 .box p {
+.container .cont2 .skill .center2 .box4 .box p {
   font-size: 15px;
   line-height: 30px;
   margin-bottom: 30px;
   width: 80%;
   margin: 0 auto;
 }
-.container .cont3 .skill .center2 .box4 .box:nth-child(2):hover i {
+.container .cont2 .skill .center2 .box4 .box:nth-child(2):hover i {
   color: blue;
 }
-.container .cont3 .skill .center2 .box4 .box:nth-child(3):hover i {
+.container .cont2 .skill .center2 .box4 .box:nth-child(3):hover i {
   color: gold;
 }
-.container .cont3 .skill .center2 .box4 .box:nth-child(4):hover i {
+.container .cont2 .skill .center2 .box4 .box:nth-child(4):hover i {
   color: green;
 }
-.container .cont3.move .skill .center2 .box4 {
+.container .cont2.move .skill .center2 .box4 {
   opacity: 1;
   transform: translateY(0px);
+}
+.container .cont3 {
+  height: 150px;
+  background-color: rgba(0, 0, 0, 0.6);
 }
 .container .cont4 {
   width: 100%;

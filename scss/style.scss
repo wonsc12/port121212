@@ -88,8 +88,8 @@ body { line-height:1; overflow-x: hidden; }
             }
         }
     }
-    .cont2 {}
-    .cont3 { 
+    
+    .cont2 { 
         
         width: 100%; height: 80vh; display: flex; align-items: center; background-color: #fafafa;    
         .skill {width: 100%; display: flex; justify-content: center;  
@@ -133,7 +133,10 @@ body { line-height:1; overflow-x: hidden; }
         
             
     }
-    .cont3.move .skill .center2 .box4{opacity: 1; transform: translateY(0px);}    
+    .cont2.move .skill .center2 .box4{opacity: 1; transform: translateY(0px);}    
+    .cont3 {
+        height: 150px;  background-color:  rgba(0,0,0,0.6);
+    }
     .cont4 { width: 100%; height: 100vh;   display: flex;  
         .center { width: 80%; margin: 0 auto;
             
