@@ -38,14 +38,14 @@ body { line-height:1; overflow-x: hidden; }
         }       
     }   
 }
-.header.fixer{line-height: 80px;  position: fixed; top:0; bottom: unset; display: block;justify-content: center; width: 100%; z-index: 99; ;padding:13px 0;background-color:  rgba(0,0,0,0.6);
-    .center{ border-radius: 0px; width: 64%;    background-color:transparent;
-        .logo { 
+.header.fixer{line-height: 80px;  position: fixed; top:0; bottom: unset; display: block;justify-content: center; width: 100%; z-index: 99; ;padding:13px 0;
+    .center{ border-radius: 0px; width: 100%;    display: flex; justify-content: center;
+        .logo {  
             h2 { 
                 a { color: #fff;}
             }
         }
-        .gnb { display: flex; justify-content: space-between;
+        .gnb { display: flex; justify-content: space-between; margin-left: 692px;
             li{ 
                     
                 a { color:#fff; 

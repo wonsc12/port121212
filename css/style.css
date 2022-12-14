@@ -110,12 +110,12 @@ body {
   width: 100%;
   z-index: 99;
   padding: 13px 0;
-  background-color: rgba(0, 0, 0, 0.6);
 }
 .header.fixer .center {
   border-radius: 0px;
-  width: 64%;
-  background-color: transparent;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 .header.fixer .center .logo h2 a {
   color: #fff;
@@ -123,6 +123,7 @@ body {
 .header.fixer .center .gnb {
   display: flex;
   justify-content: space-between;
+  margin-left: 692px;
 }
 .header.fixer .center .gnb li a {
   color: #fff;
