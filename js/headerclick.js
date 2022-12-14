@@ -29,7 +29,7 @@ let secStart = [];
         let scTop = window.scrollY;
         let cont2Start = document.querySelector(".cont2").offsetTop;
 
-        if(scTop >= cont2Start  ){
+        if(scTop >= cont2Start-100 ){
             
             header.classList.add("fixer");
             

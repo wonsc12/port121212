@@ -38,7 +38,7 @@ body { line-height:1; overflow-x: hidden; }
         }       
     }   
 }
-.header.fixer{line-height: 80px;  position: fixed; top:0; bottom: unset; display: block;justify-content: center; width: 100%; z-index: 99; ;padding:13px 0;
+.header.fixer{line-height: 80px;  position: fixed; top:-13px; bottom: unset; display: block;justify-content: center; width: 100%; z-index: 99; ;padding:13px 0;
     .center{ border-radius: 0px; width: 100%;    display: flex; justify-content: center;
         .logo {  
             h2 { 

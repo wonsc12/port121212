@@ -103,7 +103,7 @@ body {
 .header.fixer {
   line-height: 80px;
   position: fixed;
-  top: 0;
+  top: -13px;
   bottom: unset;
   display: block;
   justify-content: center;
