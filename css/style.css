@@ -188,9 +188,20 @@ body {
   content: "|";
   font-size: 20px;
   color: red;
-  animation-name: cusor;
-  animation-duration: 0.5s;
-  animation-iteration-count: infinite;
+  -webkit-animation-name: cusor;
+          animation-name: cusor;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+@-webkit-keyframes cusor {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 @keyframes cusor {
   0% {
@@ -343,7 +354,7 @@ body {
 }
 .container .cont4 .center .tabCont .tabSet .image {
   width: 48%;
-  height: 350px;
+  height: 450px;
   opacity: 0;
   transition: all 2s;
   transform: translateX(-200px);
