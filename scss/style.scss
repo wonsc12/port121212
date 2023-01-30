@@ -40,12 +40,12 @@ body { line-height:1; overflow-x: hidden; }
 }
 .header.fixer{line-height: 80px;  position: fixed; top:-13px; bottom: unset; display: block;justify-content: center; width: 100%; z-index: 99; ;padding:13px 0;
     .center{ border-radius: 0px; width: 100%;    display: flex; justify-content: center;
-        .logo {  
+        .logo { 
             h2 { 
                 a { color: #fff;}
             }
         }
-        .gnb { display: flex; justify-content: space-between; margin-left: 692px;
+        .gnb { display: flex; justify-content: space-between; margin-left: 482px;
             li{ 
                     
                 a { color:#fff; 
@@ -205,7 +205,7 @@ body { line-height:1; overflow-x: hidden; }
     }
     .cont4.move .center .tabCont .tabSet .image {opacity: 1; transform: translateX(0px);}    
     .cont4.move .center .tabCont .tabSet .box {opacity: 1; transform: translateX(0px);}    
-    .cont5 {  margin-top: 100px;
+    .cont5 {  margin-top: 150px;
         background: rgb(96,246,69);  background: linear-gradient(39deg, rgba(96,246,69,0.8939950980392157) 12%, rgba(28,147,196,0.8239670868347339) 66%);
          width: 100%; height: 450px;   display: flex; align-items: center; justify-content: center;
         .center { 

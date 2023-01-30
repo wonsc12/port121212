@@ -123,7 +123,7 @@ body {
 .header.fixer .center .gnb {
   display: flex;
   justify-content: space-between;
-  margin-left: 692px;
+  margin-left: 482px;
 }
 .header.fixer .center .gnb li a {
   color: #fff;
@@ -403,7 +403,7 @@ body {
   transform: translateX(0px);
 }
 .container .cont5 {
-  margin-top: 100px;
+  margin-top: 150px;
   background: rgb(96, 246, 69);
   background: linear-gradient(39deg, rgba(96, 246, 69, 0.893995098) 12%, rgba(28, 147, 196, 0.8239670868) 66%);
   width: 100%;
